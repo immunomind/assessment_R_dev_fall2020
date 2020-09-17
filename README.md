@@ -1,2 +1,2 @@
-# assessment_R_dev_fall2020
+# R developer coding task
 The coding task for R software developer.
