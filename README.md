@@ -4,11 +4,12 @@ The coding task for an R software developer.
 2. Дать канал связи - телеграм или почта
 3. Сказать что такое Scientific prototype & Tech spec
 4. Напомнить что можно задавать вопросы
+5. Опсиать папку с данными
 
 # Scientific specification
 Scinetific background for the problem.
 
-
+  
 
 # Technical specification
 Technical background for the problem.
