@@ -8,3 +8,5 @@ Welcome to the coding task for an R software developer. Here is the process:
 5. Asking questions is a part of this task. Feel free to communicate, we'll be happy to help you.
 
 We are available at hr+r@immunomind.io. **All questions are welcomed**. [There's no such thing as a stupid question](https://en.wikipedia.org/wiki/No_such_thing_as_a_stupid_question).
+
+![img](./photo.jpg)
