@@ -6,9 +6,7 @@ In this task you will implement one of the most common methods for comparing imm
 
 - The **Scientific background** section provides a high-level scientific overview and motivation for coding Jaccard index.  
 - The **Technical specification** section provides a detailed API and testing approach to the function to be coded. **We expect the solution which is based on this document**.
-
-Enjoy and let us know if you have any questions!
-hr+r@immunomind.io.
+- **Asking questions** is a part of this task. Enjoy and let us know if you have one! We'll be happy to help you. hr+r@immunomind.io.
 
 ## 🧬 Scientific specification
 
@@ -51,7 +49,7 @@ The analysis is done on immune repertoires and occasionally uses the metadata to
         - If `.verbose` is `FALSE`, then don't print any messages.
 - **Test plan / Edge cases**
     - <ToDo for you: write two-three edge cases, how to handle them and write small tests to test for them>
-    - Check the Background section for the testing framework. We provided basic test in [test_hello_world.R](./test_hello_world.R).
+    - Check the Background section for the testing framework. We provided basic test in [test_hello_world.R](./test_hello_world.R). Use **testthat::test_dir('tests')** to see if you pass the tests created.  
 - **Background**
     - Tidyverse provides a dplyr-based interface to data.tables: [https://github.com/tidyverse/dtplyr](https://github.com/tidyverse/dtplyr)
     - An awesome library to test your code: [https://testthat.r-lib.org/](https://testthat.r-lib.org/)
