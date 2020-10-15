@@ -1,22 +1,28 @@
 # Specification: Jaccard index
 
-# Problem Specification
-
 ## Overview
 
-In this task you will implement one of the most common methods for comparing immune system datasets – Jaccard index. The "Scientific background" section provides a high-level scientific overview and motivation for coding Jaccard index. The "Technical specification" section provides a detailed API and testing approach to the function. Enjoy and let us know if you have any questions!
+In this task you will implement one of the most common methods for comparing immune system datasets – Jaccard index. The specification or problem statement is broken down into two parts:
 
-## 🧬 Scientific background
+- The **Scientific background** section provides a high-level scientific overview and motivation for coding Jaccard index.  
+- The **Technical specification** section provides a detailed API and testing approach to the function to be coded. **We expect the solution which is based on this document**.
+
+Enjoy and let us know if you have any questions!
+hr+r@immunomind.io.
+
+## 🧬 Scientific specification
 
 ### Data overview
 
-We work with the immune system data. Immune system has different types of cells, and in this task we focus on developing an analysis method for one specific type of cell called "T-cells". T-cells are cells that actively seek viruses in the blood of an organism and initiate the immune response. If you find equal or similar T-cells in different patients, this may indicate a similar underlying immune process or similar infection of the hosts.
+We work with the immune system data. Immune system has different types of cells, and in this task we focus on developing an analysis method for one specific type of cell called **T-cells**.
 
-In this task, each file except the metadata file is an immune system dataset corresponding to a specific patient: one file - one sample / patient. Each dataset is called an "immune repertoire" or "clonotype table".
+T-cells are cells that actively seek viruses in the blood of an organism and initiate the immune response. If you find equal or similar T-cells in different patients, this may indicate a similar underlying immune process or similar infection of the hosts.
 
-"Clonotype" is a name given to T-cells and is a row in the clonotype table. We compare T-cells by their DNA or Protein sequences. DNA sequences of clonotypes are stored in the "CDR3.nt" column, and Protein sequences of clonotypes are stored in the "CDR.aa" column.
+In this task, each file except the **metadata file** is an immune system dataset corresponding to a specific patient: one file = one sample, one sample = one patient. Each dataset is called an **immune repertoire** or **clonotype table**.
 
-The pool of immune repertoires of patients has a corresponding file "metadata.txt" with meta-information about the patients, such as age, condition, history of diseases, specific gene profile, etc.
+**Clonotype** is a name given to T-cells and is a row in the clonotype table. We compare T-cells by their DNA or Protein sequences. DNA sequences of clonotypes are stored in the **CDR3.nt column**, and Protein sequences of clonotypes are stored in the **CDR.aa column**.
+
+The pool of immune repertoires of patients has a corresponding file **metadata.txt** with meta-information about the patients, such as age, condition, history of diseases, specific gene profile, etc.
 
 The analysis is done on immune repertoires and occasionally uses the metadata to group and sample patients.
 
@@ -45,6 +51,7 @@ The analysis is done on immune repertoires and occasionally uses the metadata to
         - If `.verbose` is `FALSE`, then don't print any messages.
 - **Test plan / Edge cases**
     - <ToDo for you: write two-three edge cases, how to handle them and write small tests to test for them>
+    - Check the Background section for the testing framework. We provided basic test in [test_hello_world.R](./test_hello_world.R).
 - **Background**
     - Tidyverse provides a dplyr-based interface to data.tables: [https://github.com/tidyverse/dtplyr](https://github.com/tidyverse/dtplyr)
     - An awesome library to test your code: [https://testthat.r-lib.org/](https://testthat.r-lib.org/)

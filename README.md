@@ -1,15 +1,9 @@
 # R developer coding task
-The coding task for an R software developer.
-1. Срок человек назначает сам
-2. Дать канал связи - телеграм или почта
-3. Сказать что такое Scientific prototype & Tech spec
-4. Напомнить что можно задавать вопросы
-5. Опсиать папку с данными
+Welcome to the coding task for an R software developer. Here is the process:
 
-# Scientific specification
-Scinetific background for the problem.
+1. Review the task. The problem is well described in [specification_jaccard_index.md](./specification_jaccard_index.md).
+2. Pick a deadline for yourself and send it to us via e-mail hr+r@immunomind.io. 
+3. Fork the repository. In case you need [GIT cheatsheet, here it is](https://happygitwithr.com/).
+4. Provide solution by the deadline you've set for yourself.
 
-  
-
-# Technical specification
-Technical background for the problem.
+We are available at hr+r@immunomind.io. All questions are welcomed. [There's no such thing as a stupid question](https://en.wikipedia.org/wiki/No_such_thing_as_a_stupid_question).

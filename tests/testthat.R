@@ -1,4 +1,4 @@
-source("../hello_world.R", chdir = TRUE)
+source("../test_hello_world.R", chdir = TRUE)
 library(testthat)
 
 test_that("single number", {
